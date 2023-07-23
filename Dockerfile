@@ -1,4 +1,4 @@
-FROM dokken/centos-8
+FROM docker.io/dokken/centos-8:latest
 RUN yum -y install httpd unzip zip
 ADD https://www.free-css.com/assets/files/free-css-templates/download/page294/hirevac.zip /var/www/html
 WORKDIR /var/www/html
